@@ -1,0 +1,52 @@
+body{
+  background-color: #909090;
+  color: maroon;
+}
+#title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Verdana;
+  font-size: 24px;
+  color: white;
+}
+p {
+  margin-top: 10px;
+  font-size: 12px;
+  float: right;
+}
+svg {
+  background-color: grey;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.dot {
+  stroke: black;  /* outline */
+}
+.dot:hover {
+  stroke: none;
+  fill: orange;
+  opacity: 0.7;
+  -webkit-transition: fill 700ms; /* Safari */
+  transition: fill 700ms;
+}
+
+#tooltip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  text-align: left;
+  padding: 4px 8px;
+  font-size: 12px;
+  color: white;
+  background: steelblue;
+  box-shadow: 0px 0px 2px;
+  border-radius: 3px;
+  pointer-events: none;
+}
+a {
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+}
